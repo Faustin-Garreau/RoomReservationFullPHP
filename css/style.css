@@ -1,0 +1,52 @@
+body {
+    background-color: #361D00;
+}
+
+h1 {
+    font-weight: bold !important;
+    color : #F1F1F1;
+    font-size: 60px !important;
+}
+
+
+
+/* style du login */
+.button_login {
+    background-color: #361D00; 
+    color : #F1F1F1;
+    width : 50% !important;
+}
+
+/* si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+    .button_login
+    {
+        width : 100% !important;
+
+    }
+
+    .login_titre {
+        margin-top: 100px !important;
+    }
+}
+
+
+/* style du register */
+.button_register {
+    background-color: #361D00; 
+    color : #F1F1F1;
+    width : 50% !important;
+}
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+    .button_register
+    {
+        width : 100% !important;
+
+    }
+
+
+}
